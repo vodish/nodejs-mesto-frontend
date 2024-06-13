@@ -139,7 +139,8 @@ class Api {
   }
   }
   // Замените на адрес вашего бэкенда
-  const api = new Api('http://localhost:3011');
+  // const api = new Api('http://localhost:3011');
+  const api = new Api('https://api.nodejs-mesto.karasev.ru');
   
   export default api;
   
